@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url("https://fonts.google.com/specimen/Outfit");
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+    background-color:   hsl(30, 54%, 90%);
+    font-size: 16px;
+    align-items: center;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.card{
+    width: 30%;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.card .img{
+    display: flex;
+    justify-content: center;
+}
+
+.card img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.card h2{
+
+    font-size: 28px;
+
+}
+
+.nutrition{
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition div{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px){
+    .card{
+        width: 70%;
+    }
+    .card img{
+        width: 80%;
+    }
+}
